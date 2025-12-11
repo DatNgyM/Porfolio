@@ -87,7 +87,7 @@ export default function About() {
               className="glass dark:glass-dark rounded-2xl p-6 max-w-3xl mx-auto"
             >
               <p className="text-lg md:text-xl text-gray-700 dark:text-gray-200 leading-relaxed">
-                I&apos;m a passionate developer and designer who loves creating
+                I{'\''}m a passionate developer and designer who loves creating
                 beautiful, functional, and user-centered digital experiences.
                 With a keen eye for detail and a commitment to excellence, I
                 bring ideas to life through code and design.

@@ -2,6 +2,7 @@
 
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
+import Image from "next/image";
 
 interface MarkdownRendererProps {
   content: string;
@@ -188,13 +189,36 @@ export default function MarkdownRenderer({
             />
           ),
           // Images
-          img: ({ node, alt, ...props }: any) => (
-            <img
-              className="rounded-xl shadow-2xl my-8 border border-gray-200 dark:border-gray-700"
-              alt={alt || ""}
-              {...props}
-            />
-          ),
+          img: ({ node, alt, src, ...props }: any) => {
+            const imageSrc = src || "";
+            const isExternal = imageSrc.startsWith("http://") || imageSrc.startsWith("https://") || imageSrc.startsWith("//");
+            
+            if (isExternal) {
+              // For external images, use regular img tag
+              return (
+                // eslint-disable-next-line @next/next/no-img-element
+                <img
+                  src={imageSrc}
+                  alt={alt || ""}
+                  className="rounded-xl shadow-2xl my-8 border border-gray-200 dark:border-gray-700"
+                  {...props}
+                />
+              );
+            }
+            
+            // For local images, use Next.js Image
+            return (
+              <Image
+                src={imageSrc}
+                alt={alt || ""}
+                width={800}
+                height={600}
+                className="rounded-xl shadow-2xl my-8 border border-gray-200 dark:border-gray-700"
+                unoptimized
+                {...props}
+              />
+            );
+          },
         }}
       >
         {content}
