@@ -31,6 +31,12 @@ export default function Navbar() {
       return;
     }
 
+    // If on about page, set about as active
+    if (pathname === "/about") {
+      setActiveSection("/about");
+      return;
+    }
+
     // Only do scroll spy on home page (where sections exist)
     if (pathname !== "/") {
       return;

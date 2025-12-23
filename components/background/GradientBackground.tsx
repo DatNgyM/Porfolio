@@ -53,7 +53,7 @@ export default function GradientBackground() {
   if (!mounted) return null;
 
   return (
-    <div className="fixed inset-0 -z-10 overflow-hidden pointer-events-none bg-background">
+    <div className="fixed inset-0 -z-10 overflow-hidden pointer-events-none bg-background h-screen w-screen">
       {/* Base gradient mesh - Monochrome */}
       <div className="absolute inset-0 bg-gradient-to-br from-gray-50/50 via-white to-gray-100/50 dark:from-gray-950 dark:via-gray-900 dark:to-gray-800/40" />
       

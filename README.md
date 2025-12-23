@@ -108,6 +108,30 @@ Use gradient text classes for eye-catching headings:
 - `.gradient-text-2` - Pink to red
 - `.gradient-text-3` - Blue to cyan
 
+## 🚀 Deployment & CI/CD
+
+### Vercel Deployment
+
+This project is configured for automatic deployment on Vercel with CI/CD:
+
+- **Automatic Deployments**: Every push to `main` branch triggers a production deployment
+- **Preview Deployments**: Each pull request gets its own preview URL
+- **CI Checks**: GitHub Actions run lint, type check, and build on every push/PR
+
+### Setup Instructions
+
+See [CI_CD_SETUP.md](./CI_CD_SETUP.md) for detailed setup instructions.
+
+### Quick Deploy
+
+1. Push your code to GitHub
+2. Connect your repository to Vercel
+3. Vercel will automatically detect Next.js and deploy
+
+For more details, check:
+- [CI_CD_SETUP.md](./CI_CD_SETUP.md) - Complete CI/CD setup guide
+- [DEPLOY.md](./DEPLOY.md) - Deployment checklist and troubleshooting
+
 ## 📝 License
 
 This project is open source and available under the MIT License.
