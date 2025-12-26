@@ -57,6 +57,8 @@ logs/
 .cache/
 .turbo/
 
-# Personal documentation files
-JOB_MARKET_ANALYSIS.md
-LEARNING_ROADMAP_3_MONTHS.md
+# Markdown files
+*.md
+
+# Public folder
+/public

@@ -9,7 +9,7 @@ export const blogPosts: BlogPost[] = [
       "Tìm hiểu về ngôn ngữ lập trình Java và Java Virtual Machine (JVM) - nền tảng của nhiều ứng dụng enterprise hiện đại.",
     content: `# Giới thiệu về Java và JVM
 
-## Mở bài
+## Java và JVM: Nền tảng của lập trình hiện đại
 
 Java là một trong những ngôn ngữ lập trình phổ biến nhất thế giới, được hàng triệu developer sử dụng để xây dựng các ứng dụng từ web, mobile đến enterprise systems. Được phát triển bởi Sun Microsystems (nay thuộc Oracle) vào năm 1995, Java đã trải qua hơn 25 năm phát triển và vẫn đang mạnh mẽ cho đến ngày nay.
 
@@ -17,7 +17,7 @@ Nếu bạn đang bắt đầu học lập trình Java hoặc muốn hiểu rõ 
 
 ---
 
-## Thân bài
+## Tìm hiểu về Java và JVM
 
 ### Java là gì?
 
@@ -78,7 +78,7 @@ Java được sử dụng trong nhiều lĩnh vực:
 
 ---
 
-## Kết luận
+## Tổng kết và bước tiếp theo
 
 Java và JVM tạo thành một nền tảng mạnh mẽ và linh hoạt cho việc phát triển phần mềm. Với khả năng chạy đa nền tảng, bảo mật cao, và ecosystem phong phú, Java vẫn là lựa chọn hàng đầu cho nhiều doanh nghiệp và developer trên toàn thế giới.
 
@@ -105,7 +105,7 @@ Nếu bạn có bất kỳ câu hỏi nào, đừng ngần ngại để lại co
       "Khám phá các tính năng mới trong ES6+ như arrow functions, destructuring, promises, và async/await giúp code JavaScript hiện đại hơn.",
     content: `# JavaScript ES6+ - Các tính năng mới
 
-## Mở bài
+## ES6+: Cuộc cách mạng trong JavaScript
 
 JavaScript đã trải qua một cuộc cách mạng lớn với sự ra đời của ES6 (ECMAScript 2015) vào năm 2015. Phiên bản này đã mang đến hàng loạt tính năng mới giúp JavaScript từ một ngôn ngữ "toy language" trở thành một ngôn ngữ lập trình mạnh mẽ, hiện đại và được yêu thích bởi hàng triệu developer trên toàn thế giới.
 
@@ -113,7 +113,7 @@ Nếu bạn đang làm việc với JavaScript hoặc muốn viết code JavaScr
 
 ---
 
-## Thân bài
+## Các tính năng ES6+ quan trọng
 
 ### 1. Arrow Functions
 
@@ -357,7 +357,7 @@ console.log(rest);  // [2, 3, 4, 5]
 
 ---
 
-## Kết luận
+## Tổng kết và bước tiếp theo
 
 ES6+ đã thay đổi cách chúng ta viết JavaScript một cách đáng kể. Các tính năng như arrow functions, destructuring, template literals, promises, async/await, và spread/rest operators giúp code JavaScript trở nên:
 
@@ -389,7 +389,7 @@ Những kiến thức này sẽ giúp bạn viết code JavaScript chuyên nghi�
       "Học cách tạo ứng dụng client-server sử dụng Java Socket API để giao tiếp qua mạng.",
     content: `# Network Programming với Java Socket
 
-## Mở bài
+## Network Programming: Kết nối thế giới qua mạng
 
 Trong thời đại kỹ thuật số ngày nay, hầu hết các ứng dụng đều cần kết nối mạng để giao tiếp với các hệ thống khác. Cho dù đó là ứng dụng chat, game online, hay web server, việc hiểu cách xây dựng ứng dụng network là kỹ năng quan trọng đối với mọi developer.
 
@@ -399,7 +399,7 @@ Bài viết này sẽ hướng dẫn bạn cách sử dụng Java Socket API đ�
 
 ---
 
-## Thân bài
+## Xây dựng ứng dụng Client-Server với Java Socket
 
 ### 1. Giới thiệu về Sockets
 
@@ -655,7 +655,7 @@ Message response = (Message) ois.readObject();
 
 ---
 
-## Kết luận
+## Tổng kết và bước tiếp theo
 
 Java Socket API cung cấp một cách mạnh mẽ và linh hoạt để xây dựng các ứng dụng network. Từ ứng dụng chat đơn giản đến các hệ thống client-server phức tạp, Socket API là nền tảng cho nhiều công nghệ hiện đại.
 
@@ -692,7 +692,7 @@ Chúc bạn code vui vẻ và thành công với network programming! 🚀`,
       "Tìm hiểu về Collections Framework trong Java - ArrayList, HashMap, Set và cách sử dụng chúng hiệu quả.",
     content: `# Java Collections Framework
 
-## Mở bài
+## Collections Framework: Công cụ quản lý dữ liệu mạnh mẽ
 
 Khi làm việc với Java, bạn sẽ thường xuyên cần lưu trữ và quản lý nhóm các đối tượng. Thay vì phải tự tạo các cấu trúc dữ liệu từ đầu, Java cung cấp một bộ framework mạnh mẽ và đầy đủ: **Collections Framework**.
 
@@ -702,7 +702,7 @@ Bài viết này sẽ giới thiệu các interface và class quan trọng nhấ
 
 ---
 
-## Thân bài
+## Các cấu trúc dữ liệu trong Collections Framework
 
 ### 1. Tổng quan về Collections Framework
 
@@ -976,7 +976,7 @@ int frequency = Collections.frequency(numbers, 1);
 
 ---
 
-## Kết luận
+## Tổng kết và bước tiếp theo
 
 Java Collections Framework là công cụ mạnh mẽ và không thể thiếu khi lập trình Java. Nó cung cấp các cấu trúc dữ liệu được tối ưu hóa và tested kỹ lưỡng, giúp bạn tập trung vào logic nghiệp vụ thay vì phải tự implement các cấu trúc dữ liệu.
 
@@ -1016,7 +1016,7 @@ Hãy thực hành thường xuyên để nắm vững Collections Framework! Ch�
       "Hiểu rõ về closures, scope trong JavaScript và cách chúng hoạt động - kiến thức quan trọng cho mọi JavaScript developer.",
     content: `# JavaScript Closures và Scope
 
-## Mở bài
+## Scope và Closures: Nền tảng của JavaScript
 
 Khi học JavaScript, có hai khái niệm quan trọng mà mọi developer đều phải nắm vững: **Scope** (phạm vi) và **Closures** (bao đóng). Đây là những kiến thức nền tảng giúp bạn hiểu cách JavaScript hoạt động và viết code hiệu quả hơn.
 
@@ -1026,7 +1026,7 @@ Bài viết này sẽ giải thích chi tiết về scope và closures, cùng v�
 
 ---
 
-## Thân bài
+## Tìm hiểu về Scope và Closures
 
 ### 1. Scope trong JavaScript
 
@@ -1390,7 +1390,7 @@ for (var i = 0; i < 3; i++) {
 
 ---
 
-## Kết luận
+## Tổng kết và bước tiếp theo
 
 Scope và Closures là những khái niệm cốt lõi trong JavaScript, giúp bạn hiểu cách code JavaScript hoạt động và viết code tốt hơn. Closures cho phép bạn:
 
@@ -1431,7 +1431,7 @@ Hiểu rõ closures sẽ giúp bạn viết code JavaScript chuyên nghiệp và
       "Học cách sử dụng multithreading trong Java để tạo ứng dụng đa luồng hiệu quả.",
     content: `# Java Multithreading
 
-## Mở bài
+## Multithreading: Tận dụng sức mạnh đa luồng
 
 Trong thế giới hiện đại, hiệu năng là yếu tố quan trọng quyết định sự thành công của một ứng dụng. Java Multithreading là một tính năng mạnh mẽ cho phép ứng dụng của bạn thực thi nhiều tác vụ đồng thời, tận dụng tối đa sức mạnh của CPU đa nhân và cải thiện trải nghiệm người dùng.
 
@@ -1441,7 +1441,7 @@ Bài viết này sẽ hướng dẫn bạn từ cơ bản đến nâng cao về 
 
 ---
 
-## Thân bài
+## Làm việc với Threads trong Java
 
 ### 1. Giới thiệu về Multithreading
 
@@ -1519,7 +1519,7 @@ executor.shutdown();
 
 ---
 
-## Kết luận
+## Tổng kết và bước tiếp theo
 
 Java Multithreading là công cụ mạnh mẽ giúp bạn xây dựng các ứng dụng hiệu năng cao. Từ việc tạo threads đơn giản đến sử dụng ExecutorService và xử lý synchronization, hiểu rõ multithreading sẽ giúp bạn viết code Java chuyên nghiệp hơn.
 
@@ -1555,7 +1555,7 @@ Chúc bạn thành công với multithreading! 🚀`,
       "Tìm hiểu cách sử dụng Promises và Fetch API để xử lý HTTP requests trong JavaScript hiện đại.",
     content: `# JavaScript Promises và Fetch API
 
-## Mở bài
+## Xử lý bất đồng bộ với Promises và Fetch API
 
 Xử lý bất đồng bộ (asynchronous operations) là một phần không thể thiếu trong JavaScript hiện đại. Từ việc gọi API, đọc file, đến xử lý user events, hầu hết các thao tác trong web development đều là bất đồng bộ.
 
@@ -1565,7 +1565,7 @@ Nếu bạn muốn viết code JavaScript hiện đại và chuyên nghiệp, vi
 
 ---
 
-## Thân bài
+## Tìm hiểu Promises và Fetch API
 
 ### 1. Giới thiệu về Promises và Fetch API
 
@@ -1646,7 +1646,7 @@ async function fetchData() {
 
 ---
 
-## Kết luận
+## Tổng kết và bước tiếp theo
 
 Promises và Fetch API là những công cụ không thể thiếu trong JavaScript hiện đại. Chúng giúp bạn viết code bất đồng bộ dễ đọc, dễ bảo trì và hiệu quả hơn rất nhiều so với callbacks truyền thống.
 
@@ -1681,7 +1681,7 @@ Chúc bạn code vui vẻ! 🚀`,
       "Học cách xử lý exceptions trong Java một cách hiệu quả với try-catch, finally và custom exceptions.",
     content: `# Java Exception Handling
 
-## Mở bài
+## Xử lý lỗi chuyên nghiệp với Exception Handling
 
 Trong quá trình phát triển ứng dụng, việc xử lý lỗi là điều không thể tránh khỏi. Có thể là lỗi chia cho 0, file không tồn tại, kết nối mạng bị lỗi, hay dữ liệu không hợp lệ. Exception Handling trong Java cung cấp một cơ chế mạnh mẽ và có cấu trúc để xử lý các lỗi này một cách graceful, giúp ứng dụng của bạn ổn định và dễ debug hơn.
 
@@ -1689,7 +1689,7 @@ Hiểu rõ cách sử dụng try-catch, finally, và custom exceptions sẽ giú
 
 ---
 
-## Thân bài
+## Các kỹ thuật xử lý Exception
 
 ### 1. Giới thiệu về Exception Handling
 
@@ -1756,7 +1756,7 @@ public void riskyMethod() throws IOException {
 
 ---
 
-## Kết luận
+## Tổng kết và bước tiếp theo
 
 Exception handling là một kỹ năng quan trọng trong Java. Việc xử lý exceptions đúng cách giúp ứng dụng của bạn ổn định, dễ bảo trì và cung cấp trải nghiệm tốt hơn cho người dùng.
 
@@ -1788,7 +1788,7 @@ Chúc bạn code vui vẻ! 🚀`,
       "Học cách thao tác với DOM (Document Object Model) trong JavaScript để tạo trang web động và tương tác.",
     content: `# JavaScript DOM Manipulation
 
-## Mở bài
+## DOM Manipulation: Tạo trang web động và tương tác
 
 DOM (Document Object Model) là một trong những khái niệm cốt lõi của web development. Nó là một biểu diễn cây cấu trúc của HTML document, cho phép JavaScript tương tác và thay đổi nội dung, cấu trúc, và style của trang web một cách động.
 
@@ -1798,7 +1798,7 @@ Bài viết này sẽ hướng dẫn bạn các kỹ thuật DOM manipulation t�
 
 ---
 
-## Thân bài
+## Các kỹ thuật thao tác với DOM
 
 ### 1. Giới thiệu về DOM
 
@@ -1874,7 +1874,7 @@ DOM Manipulation là nền tảng để tạo các trang web tương tác và đ
 
 ---
 
-## Kết luận
+## Tổng kết và bước tiếp theo
 
 DOM Manipulation là kỹ năng cơ bản nhưng cực kỳ quan trọng trong web development. Nắm vững các kỹ thuật này sẽ giúp bạn tạo ra các trang web tương tác, động và có hiệu năng tốt.
 
@@ -1906,7 +1906,7 @@ Chúc bạn code vui vẻ! 🚀`,
       "Khám phá Java Stream API - cách tiếp cận hiện đại để xử lý collections với functional programming style.",
     content: `# Java Stream API
 
-## Mở bài
+## Stream API: Functional Programming trong Java
 
 Java Stream API, được giới thiệu trong Java 8, đã cách mạng hóa cách chúng ta xử lý collections. Thay vì sử dụng các vòng lặp imperative (for, while), Stream API cho phép bạn viết code theo phong cách functional programming - ngắn gọn, dễ đọc và dễ hiểu hơn.
 
@@ -1916,7 +1916,7 @@ Bài viết này sẽ hướng dẫn bạn từ cơ bản đến nâng cao về 
 
 ---
 
-## Thân bài
+## Làm việc với Stream API
 
 ### 1. Giới thiệu về Stream API
 
@@ -1990,7 +1990,7 @@ Stream API giúp code Java ngắn gọn, dễ đọc và hiệu quả hơn.
 
 ---
 
-## Kết luận
+## Tổng kết và bước tiếp theo
 
 Java Stream API là một công cụ mạnh mẽ giúp bạn viết code Java hiện đại và hiệu quả hơn. Với phong cách functional programming, code của bạn sẽ ngắn gọn, dễ đọc và dễ maintain hơn.
 
@@ -2022,7 +2022,7 @@ Chúc bạn code vui vẻ! 🚀`,
       "Hướng dẫn từng bước xây dựng RESTful API hoàn chỉnh với Spring Boot. Từ setup project, kiến trúc 3 lớp, validation, error handling đến best practices thực tế. Phù hợp cho người mới bắt đầu và muốn nâng cao kỹ năng backend Java.",
     content: `# Xây dựng RESTful API với Spring Boot
 
-## Mở bài
+## RESTful API với Spring Boot: Hướng dẫn toàn diện
 
 Trong thời đại công nghệ hiện nay, việc xây dựng API là kỹ năng không thể thiếu đối với bất kỳ backend developer nào. RESTful API đã trở thành tiêu chuẩn de facto cho việc giao tiếp giữa các hệ thống, và Spring Boot - framework Java phổ biến nhất - giúp chúng ta xây dựng những API mạnh mẽ một cách nhanh chóng và hiệu quả.
 
@@ -2044,8 +2044,6 @@ Trong bài viết này, bạn sẽ được hướng dẫn từng bước để 
 Sau khi đọc xong bài viết, bạn sẽ có đủ kiến thức để tự xây dựng một RESTful API production-ready!
 
 ---
-
-## Thân bài
 
 ### 1. Giới thiệu về REST API
 
@@ -2592,7 +2590,7 @@ curl -X DELETE http://localhost:8080/api/products/1
 
 ---
 
-## Kết luận
+## Tổng kết và bước tiếp theo
 
 Trong bài viết này, chúng ta đã cùng nhau xây dựng một RESTful API hoàn chỉnh với Spring Boot từ đầu đến cuối. Chúng ta đã học được:
 

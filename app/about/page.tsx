@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { Code2, Palette, Zap, Users, Award, Target, Mail, MapPin, Calendar, GraduationCap, Briefcase, ExternalLink } from "lucide-react";
+import Image from "next/image";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import GradientBackground from "@/components/background/GradientBackground";
@@ -68,6 +69,28 @@ export default function AboutPage() {
           >
             {/* Header */}
             <motion.div variants={itemVariants} className="text-center mb-16">
+              {/* Avatar Image */}
+              <motion.div
+                initial={{ opacity: 0, scale: 0.8 }}
+                animate={isInView ? { opacity: 1, scale: 1 } : {}}
+                transition={{ duration: 0.6, delay: 0.1 }}
+                className="flex justify-center mb-6"
+              >
+                <motion.div
+                  whileHover={{ scale: 1.1, rotate: [0, -5, 5, 0] }}
+                  transition={{ duration: 0.5 }}
+                  className="relative w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-4 border-white/20 dark:border-gray-700/20 shadow-lg"
+                >
+                  <Image
+                    src="/img/user.png"
+                    alt="Profile"
+                    fill
+                    className="object-cover"
+                    priority
+                  />
+                </motion.div>
+              </motion.div>
+
               <motion.h1
                 className="text-5xl md:text-6xl font-bold mb-6"
                 initial={{ opacity: 0, y: 30 }}
@@ -280,6 +303,39 @@ export default function AboutPage() {
                         </p>
                         <a
                           href="/certificates/NetworkingBasicsUpdate20251223-30-9x10ra.pdf"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center gap-1 text-xs text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white transition-colors"
+                          onClick={(e) => e.stopPropagation()}
+                        >
+                          Xem chứng chỉ
+                          <ExternalLink className="w-3 h-3" />
+                        </a>
+                      </div>
+                    </div>
+                  </motion.div>
+
+                  {/* Certification Item 3 */}
+                  <motion.div
+                    whileHover={{ scale: 1.02, y: -4 }}
+                    className="group relative overflow-hidden rounded-xl border border-white/10 p-5 bg-gradient-to-br from-black/5 to-gray-600/5 hover:from-black/10 hover:to-gray-600/10 transition-all cursor-pointer"
+                  >
+                    <div className="flex items-start gap-4">
+                      <div className="p-2 rounded-lg bg-gradient-to-br from-black/20 to-gray-600/20 group-hover:from-black/30 group-hover:to-gray-600/30 transition-all">
+                        <Award className="w-5 h-5 text-black dark:text-white" />
+                      </div>
+                      <div className="flex-1">
+                        <h3 className="text-lg font-semibold text-gray-800 dark:text-gray-200 mb-1 group-hover:gradient-text transition-all">
+                          JavaScript Essentials 2
+                        </h3>
+                        <p className="text-gray-600 dark:text-gray-400 text-sm mb-2">
+                          [Tổ Chức Cấp]
+                        </p>
+                        <p className="text-gray-500 dark:text-gray-500 text-xs mb-2">
+                          Ngày Cấp: 26/12/2024
+                        </p>
+                        <a
+                          href="/certificates/JavaScriptEssentials2Update20251226-31-xtgmtt.pdf"
                           target="_blank"
                           rel="noopener noreferrer"
                           className="inline-flex items-center gap-1 text-xs text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white transition-colors"
